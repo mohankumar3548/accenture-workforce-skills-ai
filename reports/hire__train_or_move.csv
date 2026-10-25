@@ -1,0 +1,9 @@
+skill,peak_gap_fte,opens_month,usable_capacity,peak_demand,move,train,hire,main_lever,plan
+GenAI Engineering,20,1,4.6,23.9,0,15,5,Train,Train 15 near-ready people in 3 months (contractors until month 4); hire 5
+Cybersecurity,4,1,8.3,11.6,0,4,0,Train,Train 4 near-ready people in 3 months (contractors until month 4)
+Data Engineering,3,1,23.0,25.6,1,2,0,Train,Move 1 from surplus skills; train 2 near-ready people in 3 months (contractors until month 4)
+DevOps,2,1,16.6,18.3,0,2,0,Train,Train 2 near-ready people in 3 months (contractors until month 4)
+Salesforce,1,5,22.1,22.1,1,0,0,Move,Move 1 from surplus skills
+SAP S/4HANA,1,1,26.7,27.0,1,0,0,Move,Move 1 from surplus skills
+Java,1,1,57.0,57.3,1,0,0,Move,Move 1 from surplus skills
+Power BI,1,4,19.3,19.6,0,1,0,Train,Train 1 near-ready people in 3 months

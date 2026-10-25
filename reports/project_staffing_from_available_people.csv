@@ -1,0 +1,13 @@
+project,start_month,skills_needed,needed,matched,fit,status
+Retail bank GenAI pilot,6,"Java, SAP S/4HANA, React Frontend",8,8,0.58,Staffed
+Insurer GenAI pilot,5,"Java, GenAI Engineering, Power BI",12,6,0.53,At risk
+Telecom data platform,1,"Salesforce, GenAI Engineering, Cybersecurity, Agile Delivery",7,1,0.35,At risk
+Pharma app rebuild,2,"Python, GenAI Engineering, DevOps",7,2,0.49,At risk
+Automaker CRM rollout,2,"Java, Data Engineering, GenAI Engineering, Cybersecurity",8,1,0.5,At risk
+Utility CRM rollout,3,"GenAI Engineering, DevOps, Power BI",4,1,0.46,At risk
+Airline cloud migration,2,"Azure Cloud, GenAI Engineering, DevOps, Agile Delivery",7,1,0.5,At risk
+Retailer app rebuild,4,"Java, Azure Cloud, GenAI Engineering, Cybersecurity",5,2,0.5,At risk
+Govt agency app rebuild,3,"Java, Azure Cloud, GenAI Engineering",6,0,0.0,At risk
+Media group data platform,6,"Java, Python, GenAI Engineering, Cybersecurity",7,7,0.56,Staffed
+Logistics co. GenAI pilot,6,"Python, Salesforce, Azure Cloud, Power BI",10,7,0.42,At risk
+FMCG GenAI pilot,1,"Salesforce, Data Engineering, Cybersecurity, Power BI",5,1,0.5,At risk

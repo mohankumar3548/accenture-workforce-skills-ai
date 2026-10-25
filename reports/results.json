@@ -1,0 +1,440 @@
+{
+  "title": "Accenture Skills Navigator",
+  "company": "Accenture",
+  "kpis": [
+    {
+      "label": "Headcount",
+      "value": "420",
+      "note": "72 on the bench"
+    },
+    {
+      "label": "Skills short",
+      "value": "8 of 14",
+      "note": "Within 6 months"
+    },
+    {
+      "label": "Peak FTE gap",
+      "value": "33",
+      "note": "Across short skills"
+    },
+    {
+      "label": "Projects at risk",
+      "value": "10",
+      "note": "Under 75% staffed"
+    },
+    {
+      "label": "Plan",
+      "value": "5 / 24 / 4",
+      "note": "Hire / train / move"
+    }
+  ],
+  "algorithm": [
+    {
+      "step": "Collect skills and pipeline",
+      "output": "420 consultants, 12 projects in pipeline"
+    },
+    {
+      "step": "Standardise skills",
+      "output": "14 standard skills"
+    },
+    {
+      "step": "Build skill matrix",
+      "output": "420 x 14 matrix, 604 qualified skill entries"
+    },
+    {
+      "step": "Forecast demand",
+      "output": "Fastest growing: GenAI Engineering"
+    },
+    {
+      "step": "Find gaps",
+      "output": "8 skills short at peak, largest GenAI Engineering (20 FTE)"
+    },
+    {
+      "step": "Match people to projects",
+      "output": "Average project fill 40%"
+    },
+    {
+      "step": "Hire, train or move",
+      "output": "Hire 5 | Train 24 | Move 4"
+    },
+    {
+      "step": "Staffing plan",
+      "output": "Ready"
+    }
+  ],
+  "tables": {
+    "Skill gap by month (FTE)": [
+      {
+        "skill": "Java",
+        "M+1": 0.0,
+        "M+2": 0.0,
+        "M+3": -0.0,
+        "M+4": -0.0,
+        "M+5": -1.0,
+        "M+6": -1.0
+      },
+      {
+        "skill": "Python",
+        "M+1": -3.0,
+        "M+2": -3.0,
+        "M+3": -3.0,
+        "M+4": -3.0,
+        "M+5": -3.0,
+        "M+6": -3.0
+      },
+      {
+        "skill": "SAP S/4HANA",
+        "M+1": 0.0,
+        "M+2": 0.0,
+        "M+3": 0.0,
+        "M+4": 0.0,
+        "M+5": 0.0,
+        "M+6": 0.0
+      },
+      {
+        "skill": "Salesforce",
+        "M+1": -0.0,
+        "M+2": -0.0,
+        "M+3": -0.0,
+        "M+4": -0.0,
+        "M+5": 0.0,
+        "M+6": 0.0
+      },
+      {
+        "skill": "AWS Cloud",
+        "M+1": -2.0,
+        "M+2": -2.0,
+        "M+3": -2.0,
+        "M+4": -2.0,
+        "M+5": -2.0,
+        "M+6": -2.0
+      },
+      {
+        "skill": "Azure Cloud",
+        "M+1": -2.0,
+        "M+2": -2.0,
+        "M+3": -2.0,
+        "M+4": -2.0,
+        "M+5": -2.0,
+        "M+6": -1.0
+      },
+      {
+        "skill": "Data Engineering",
+        "M+1": 2.0,
+        "M+2": 2.0,
+        "M+3": 2.0,
+        "M+4": 2.0,
+        "M+5": 2.0,
+        "M+6": 3.0
+      },
+      {
+        "skill": "GenAI Engineering",
+        "M+1": 17.0,
+        "M+2": 17.0,
+        "M+3": 18.0,
+        "M+4": 18.0,
+        "M+5": 19.0,
+        "M+6": 19.0
+      },
+      {
+        "skill": "Cybersecurity",
+        "M+1": 3.0,
+        "M+2": 3.0,
+        "M+3": 3.0,
+        "M+4": 3.0,
+        "M+5": 3.0,
+        "M+6": 3.0
+      },
+      {
+        "skill": "React Frontend",
+        "M+1": -1.0,
+        "M+2": -1.0,
+        "M+3": -1.0,
+        "M+4": -1.0,
+        "M+5": -1.0,
+        "M+6": -1.0
+      },
+      {
+        "skill": "DevOps",
+        "M+1": 1.0,
+        "M+2": 1.0,
+        "M+3": 1.0,
+        "M+4": 1.0,
+        "M+5": 2.0,
+        "M+6": 2.0
+      },
+      {
+        "skill": "Power BI",
+        "M+1": -0.0,
+        "M+2": -0.0,
+        "M+3": -0.0,
+        "M+4": 0.0,
+        "M+5": 0.0,
+        "M+6": 0.0
+      },
+      {
+        "skill": "Agile Delivery",
+        "M+1": -1.0,
+        "M+2": -1.0,
+        "M+3": -1.0,
+        "M+4": -1.0,
+        "M+5": -1.0,
+        "M+6": -1.0
+      },
+      {
+        "skill": "ServiceNow",
+        "M+1": -0.0,
+        "M+2": -0.0,
+        "M+3": -0.0,
+        "M+4": -0.0,
+        "M+5": -0.0,
+        "M+6": -0.0
+      }
+    ],
+    "Hire, train or move": [
+      {
+        "skill": "GenAI Engineering",
+        "peak_gap_fte": 20,
+        "opens_month": 1,
+        "usable_capacity": 4.6,
+        "peak_demand": 23.9,
+        "move": 0,
+        "train": 15,
+        "hire": 5,
+        "main_lever": "Train",
+        "plan": "Train 15 near-ready people in 3 months (contractors until month 4); hire 5"
+      },
+      {
+        "skill": "Cybersecurity",
+        "peak_gap_fte": 4,
+        "opens_month": 1,
+        "usable_capacity": 8.3,
+        "peak_demand": 11.6,
+        "move": 0,
+        "train": 4,
+        "hire": 0,
+        "main_lever": "Train",
+        "plan": "Train 4 near-ready people in 3 months (contractors until month 4)"
+      },
+      {
+        "skill": "Data Engineering",
+        "peak_gap_fte": 3,
+        "opens_month": 1,
+        "usable_capacity": 23.0,
+        "peak_demand": 25.6,
+        "move": 1,
+        "train": 2,
+        "hire": 0,
+        "main_lever": "Train",
+        "plan": "Move 1 from surplus skills; train 2 near-ready people in 3 months (contractors until month 4)"
+      },
+      {
+        "skill": "DevOps",
+        "peak_gap_fte": 2,
+        "opens_month": 1,
+        "usable_capacity": 16.6,
+        "peak_demand": 18.3,
+        "move": 0,
+        "train": 2,
+        "hire": 0,
+        "main_lever": "Train",
+        "plan": "Train 2 near-ready people in 3 months (contractors until month 4)"
+      },
+      {
+        "skill": "Salesforce",
+        "peak_gap_fte": 1,
+        "opens_month": 5,
+        "usable_capacity": 22.1,
+        "peak_demand": 22.1,
+        "move": 1,
+        "train": 0,
+        "hire": 0,
+        "main_lever": "Move",
+        "plan": "Move 1 from surplus skills"
+      },
+      {
+        "skill": "SAP S/4HANA",
+        "peak_gap_fte": 1,
+        "opens_month": 1,
+        "usable_capacity": 26.7,
+        "peak_demand": 27.0,
+        "move": 1,
+        "train": 0,
+        "hire": 0,
+        "main_lever": "Move",
+        "plan": "Move 1 from surplus skills"
+      },
+      {
+        "skill": "Java",
+        "peak_gap_fte": 1,
+        "opens_month": 1,
+        "usable_capacity": 57.0,
+        "peak_demand": 57.3,
+        "move": 1,
+        "train": 0,
+        "hire": 0,
+        "main_lever": "Move",
+        "plan": "Move 1 from surplus skills"
+      },
+      {
+        "skill": "Power BI",
+        "peak_gap_fte": 1,
+        "opens_month": 4,
+        "usable_capacity": 19.3,
+        "peak_demand": 19.6,
+        "move": 0,
+        "train": 1,
+        "hire": 0,
+        "main_lever": "Train",
+        "plan": "Train 1 near-ready people in 3 months"
+      }
+    ],
+    "Project staffing from available people": [
+      {
+        "project": "Retail bank GenAI pilot",
+        "start_month": 6,
+        "skills_needed": "Java, SAP S/4HANA, React Frontend",
+        "needed": 8,
+        "matched": 8,
+        "fit": 0.58,
+        "status": "Staffed"
+      },
+      {
+        "project": "Insurer GenAI pilot",
+        "start_month": 5,
+        "skills_needed": "Java, GenAI Engineering, Power BI",
+        "needed": 12,
+        "matched": 6,
+        "fit": 0.53,
+        "status": "At risk"
+      },
+      {
+        "project": "Telecom data platform",
+        "start_month": 1,
+        "skills_needed": "Salesforce, GenAI Engineering, Cybersecurity, Agile Delivery",
+        "needed": 7,
+        "matched": 1,
+        "fit": 0.35,
+        "status": "At risk"
+      },
+      {
+        "project": "Pharma app rebuild",
+        "start_month": 2,
+        "skills_needed": "Python, GenAI Engineering, DevOps",
+        "needed": 7,
+        "matched": 2,
+        "fit": 0.49,
+        "status": "At risk"
+      },
+      {
+        "project": "Automaker CRM rollout",
+        "start_month": 2,
+        "skills_needed": "Java, Data Engineering, GenAI Engineering, Cybersecurity",
+        "needed": 8,
+        "matched": 1,
+        "fit": 0.5,
+        "status": "At risk"
+      },
+      {
+        "project": "Utility CRM rollout",
+        "start_month": 3,
+        "skills_needed": "GenAI Engineering, DevOps, Power BI",
+        "needed": 4,
+        "matched": 1,
+        "fit": 0.46,
+        "status": "At risk"
+      },
+      {
+        "project": "Airline cloud migration",
+        "start_month": 2,
+        "skills_needed": "Azure Cloud, GenAI Engineering, DevOps, Agile Delivery",
+        "needed": 7,
+        "matched": 1,
+        "fit": 0.5,
+        "status": "At risk"
+      },
+      {
+        "project": "Retailer app rebuild",
+        "start_month": 4,
+        "skills_needed": "Java, Azure Cloud, GenAI Engineering, Cybersecurity",
+        "needed": 5,
+        "matched": 2,
+        "fit": 0.5,
+        "status": "At risk"
+      },
+      {
+        "project": "Govt agency app rebuild",
+        "start_month": 3,
+        "skills_needed": "Java, Azure Cloud, GenAI Engineering",
+        "needed": 6,
+        "matched": 0,
+        "fit": 0.0,
+        "status": "At risk"
+      },
+      {
+        "project": "Media group data platform",
+        "start_month": 6,
+        "skills_needed": "Java, Python, GenAI Engineering, Cybersecurity",
+        "needed": 7,
+        "matched": 7,
+        "fit": 0.56,
+        "status": "Staffed"
+      },
+      {
+        "project": "Logistics co. GenAI pilot",
+        "start_month": 6,
+        "skills_needed": "Python, Salesforce, Azure Cloud, Power BI",
+        "needed": 10,
+        "matched": 7,
+        "fit": 0.42,
+        "status": "At risk"
+      },
+      {
+        "project": "FMCG GenAI pilot",
+        "start_month": 1,
+        "skills_needed": "Salesforce, Data Engineering, Cybersecurity, Power BI",
+        "needed": 5,
+        "matched": 1,
+        "fit": 0.5,
+        "status": "At risk"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "title": "Close the GenAI Engineering gap of 20 FTE",
+      "body": "Opens in month 1. Train 15 near-ready people in 3 months (contractors until month 4); hire 5.",
+      "impact": "15 train | 5 hire"
+    },
+    {
+      "title": "Close the Cybersecurity gap of 4 FTE",
+      "body": "Opens in month 1. Train 4 near-ready people in 3 months (contractors until month 4).",
+      "impact": "4 train"
+    },
+    {
+      "title": "Close the Data Engineering gap of 3 FTE",
+      "body": "Opens in month 1. Move 1 from surplus skills; train 2 near-ready people in 3 months (contractors until month 4).",
+      "impact": "1 move | 2 train"
+    },
+    {
+      "title": "Close the DevOps gap of 2 FTE",
+      "body": "Opens in month 1. Train 2 near-ready people in 3 months (contractors until month 4).",
+      "impact": "2 train"
+    },
+    {
+      "title": "Close the Salesforce gap of 1 FTE",
+      "body": "Opens in month 5. Move 1 from surplus skills.",
+      "impact": "1 move"
+    },
+    {
+      "title": "Rescue 10 under-staffed projects",
+      "body": "Insurer GenAI pilot, Telecom data platform, Pharma app rebuild cannot be fully staffed from the bench. Bring in contractors or shift start dates.",
+      "impact": "Deadline risk"
+    },
+    {
+      "title": "Review the skills taxonomy every quarter",
+      "body": "Demand for GenAI and data skills moves fastest; refresh the forecast with each pipeline review.",
+      "impact": "Process"
+    }
+  ]
+}

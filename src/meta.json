@@ -1,0 +1,51 @@
+{
+  "num": "06",
+  "area": "HR",
+  "product": "Workforce Capacity & Skill Gap",
+  "title": "Accenture Skills Navigator",
+  "company": "Accenture",
+  "why": "Accenture staffs hundreds of thousands of people on client projects. Headcount can look fine while the specific skills a project needs next month are booked elsewhere. This tool maps skills to demand and decides hire, train or move.",
+  "problem": "A company has sufficient employees on paper but continues to miss project deadlines because the required skills are not available at the right time. Develop an AI workforce intelligence system that maps employee skills against business requirements, identifies critical skill gaps, and recommends hiring, training and internal allocation strategies.",
+  "data_note": "One delivery centre: 420 consultants, 14 skills, 24 months of demand history and 12 upcoming projects (sample data).",
+  "steps": [
+    {
+      "step": "Collect skills and pipeline",
+      "detail": "Profiles, certifications, allocation, project pipeline"
+    },
+    {
+      "step": "Standardise skills",
+      "detail": "Map free-text CV skills to one taxonomy"
+    },
+    {
+      "step": "Build skill matrix",
+      "detail": "Proficiency 0-5 per person per skill"
+    },
+    {
+      "step": "Forecast demand",
+      "detail": "Holt trend forecast per skill, 6 months ahead"
+    },
+    {
+      "step": "Find gaps",
+      "detail": "Forecast demand vs available qualified people by month"
+    },
+    {
+      "step": "Match people to projects",
+      "detail": "Cosine similarity on skill vectors + greedy assignment"
+    },
+    {
+      "step": "Hire, train or move",
+      "detail": "Rule engine on gap size, lead time and near-ready staff"
+    },
+    {
+      "step": "Staffing plan",
+      "detail": "AI analyst writes the plan"
+    }
+  ],
+  "questions": [
+    "Which skill gap will hurt delivery first?",
+    "Should we hire or train for GenAI engineering?",
+    "Which projects are at risk of missing deadlines?",
+    "Who on the bench can be moved right now?"
+  ],
+  "author": "K Mohan Kumar"
+}

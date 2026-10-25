@@ -1,0 +1,13 @@
+project_id,name,start_month,team_size,skills_needed
+P1,Retail bank GenAI pilot,6,8,Java|SAP S/4HANA|React Frontend
+P2,Insurer GenAI pilot,5,12,Java|GenAI Engineering|Power BI
+P3,Telecom data platform,1,7,Salesforce|GenAI Engineering|Cybersecurity|Agile Delivery
+P4,Pharma app rebuild,2,7,Python|GenAI Engineering|DevOps
+P5,Automaker CRM rollout,2,8,Java|Data Engineering|GenAI Engineering|Cybersecurity
+P6,Utility CRM rollout,3,4,GenAI Engineering|DevOps|Power BI
+P7,Airline cloud migration,2,7,Azure Cloud|GenAI Engineering|DevOps|Agile Delivery
+P8,Retailer app rebuild,4,5,Java|Azure Cloud|GenAI Engineering|Cybersecurity
+P9,Govt agency app rebuild,3,6,Java|Azure Cloud|GenAI Engineering
+P10,Media group data platform,6,7,Java|Python|GenAI Engineering|Cybersecurity
+P11,Logistics co. GenAI pilot,6,10,Python|Salesforce|Azure Cloud|Power BI
+P12,FMCG GenAI pilot,1,5,Salesforce|Data Engineering|Cybersecurity|Power BI
